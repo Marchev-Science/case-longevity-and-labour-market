@@ -6,7 +6,7 @@ This case asks you to build a quantitative bridge between **demography** and the
 
 The case is **multilayered**: it is organised in levels of increasing depth. Solve the levels in order. A team that completes the core levels has solved the case; a team that goes further has more to show and more to say. The final levels are deliberately open — they reward curiosity, not checklist completion.
 
-> **A guiding idea.** The *average* life expectancy tells you about one person. Multiplied across a population, it becomes a *total* stock of expected person-years — a quantity that can be compared with jobs, costs and consumption. This shift from *average* to *total* measures is the conceptual engine of the whole case. See [concepts.md](concepts.md) before you start.
+> **A guiding idea.** The life expectancy tells you about one person. Multiplied across a population, it becomes a *total* stock of expected person-years — a quantity that can be compared with jobs, costs and consumption. This shift from *average* to *total* measures is the conceptual engine of the whole case. See [concepts.md](concepts.md) before you start.
 
 ---
 
@@ -37,13 +37,13 @@ Build a clean, reproducible dataset: for each country and each sex, time series 
 
 ### Level 1 — Labour supply
 
-1.1. Model and forecast the **average life expectancy**.
+1.1. Model and forecast the **life expectancy**.
 
-1.2. Model and forecast the **average healthy life expectancy** (healthy life years).
+1.2. Model and forecast the **healthy life expectancy** (healthy life years).
 
 1.3. Model and forecast the **population size**.
 
-1.4. Combine them: from the forecasts of average life expectancy and average healthy life expectancy on one hand, and population size on the other, forecast the **total life expectancy** and the **total healthy life expectancy** (in person-years). The total healthy life expectancy is an estimate of the **potential labour supply**.
+1.4. Combine them: from the forecasts of life expectancy and healthy life expectancy on one hand, and population size on the other, forecast the **total life expectancy** and the **total healthy life expectancy** (in person-years). The total healthy life expectancy is an estimate of the **potential labour supply**.
 
 ### Level 2 — Labour demand
 
@@ -61,11 +61,11 @@ Build a clean, reproducible dataset: for each country and each sex, time series 
 
 ### Level 4 — The cost of unhealthy years
 
-4. The difference between average life expectancy and average healthy life expectancy is the **average life expectancy in poor health**; the corresponding difference between the totals is the **total life expectancy in poor health** (in person-years). These years put pressure on the health and social systems. Model and forecast the relationship between the total life expectancy in poor health and the **costs of the "Human health and social work" sector** (NACE Rev. 2 section Q).
+4. The difference between life expectancy and healthy life expectancy is the **life expectancy in poor health**; the corresponding difference between the totals is the **total life expectancy in poor health** (in person-years). These years put pressure on the health and social systems. Model and forecast the relationship between the total life expectancy in poor health and the **costs of the "Human health and social work" sector** (NACE Rev. 2 section Q).
 
 ### Level 5 — The healthy retirement dividend
 
-5. The difference between average healthy life expectancy and the retirement age is the **average healthy life expectancy after retirement**; the corresponding total is the **total healthy life expectancy after retirement** (in person-years). These years generate demand for services for older adults — hobby clubs, sport, cultural events, excursions, adult education and more. Model and forecast the relationship between this total and the **consumption of services** in the sectors "Accommodation and food service" (NACE I), "Education" (NACE P) and "Arts, entertainment and recreation" (NACE R) — or, on the consumption side, the corresponding COICOP purposes (restaurants & hotels; education; recreation & culture).
+5. The difference between healthy life expectancy and the retirement age is the **healthy life expectancy after retirement**; the corresponding total is the **total healthy life expectancy after retirement** (in person-years). These years generate demand for services for older adults — hobby clubs, sport, cultural events, excursions, adult education and more. Model and forecast the relationship between this total and the **consumption of services** in the sectors "Accommodation and food service" (NACE I), "Education" (NACE P) and "Arts, entertainment and recreation" (NACE R) — or, on the consumption side, the corresponding COICOP purposes (restaurants & hotels; education; recreation & culture).
 
 ### Level 6 — Open horizons
 
