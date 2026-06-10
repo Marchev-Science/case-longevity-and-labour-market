@@ -26,9 +26,9 @@ Key properties:
 
 The case's central move is to convert *per-person averages* into *population totals*:
 
-> **Total life expectancy** (of a population, in a given year) ≈ average life expectancy × population size — a stock of expected **person-years** of life embodied in the current population.
+> **Total life expectancy** (of a population, in a given year) ≈ life expectancy × population size — a stock of expected **person-years** of life embodied in the current population.
 >
-> **Total healthy life expectancy** ≈ average healthy life expectancy × population size — a stock of expected **healthy person-years**.
+> **Total healthy life expectancy** ≈ healthy life expectancy × population size — a stock of expected **healthy person-years**.
 
 Two remarks, both intentional openings for interpretation:
 
@@ -39,9 +39,9 @@ Derived quantities used in the case:
 
 | Quantity | Definition |
 |---|---|
-| Average LE in poor health | LE − HLY |
+| LE in poor health | LE − HLY |
 | Total LE in poor health | total LE − total HLY |
-| Average healthy LE after retirement | HLY − retirement age (when positive; think about what a negative value means) |
+| Healthy LE after retirement | HLY − retirement age (when positive; think about what a negative value means) |
 | Total healthy LE after retirement | total HLY − total person-years up to retirement |
 
 ## 4. Potential labour supply
