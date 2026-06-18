@@ -8,7 +8,7 @@ One workable configuration for a team of five:
 
 | Role | What they own | Natural background |
 |---|---|---|
-| **Coordinator / integrator** | Keeps the levels moving in order, merges the parts into one coherent story, guards consistency of definitions across the team, owns the final narrative. | Anyone with an overview instinct; often the most senior, not necessarily. |
+| **Coordinator / integrator** | Keeps the levels moving in order, merges the parts into one coherent story, guards consistency of definitions and of the shared scenario assumptions (so everyone simulates the same worlds), owns the final narrative. | Anyone with an overview instinct; often the most senior, not necessarily. |
 | **Data engineer** | The Level 0 pipeline in the **team's own repository**: extraction from Eurostat (by website and/or API), cleaning, the data folder structure, flags and vintages, reproducibility. | Programming-comfortable member (the website route in the data guide needs no programming at all). |
 | **Demography modeler** | Levels 1 and 4–5 ingredients: LE, HLY, population models and forecasts; the average→total constructions. | Statistics / quantitative member. |
 | **Labour & economy modeler** | Levels 2–3 and the economic side of 4–5: jobs, vacancies, demand construction, balance modeling, sector costs and consumption links. | Economics / quantitative member. |
@@ -53,6 +53,7 @@ Recommendations, not rules. Each one has a reason; if you have a better reason t
 - Hold out the last observations for validation where series length allows; report out-of-sample, not just in-sample, fit.
 - Prefer two simple, defensible models you can compare over one elaborate model you cannot explain. Model comparison *is* analysis.
 - Forecasts without uncertainty are opinions with axes. Produce intervals, scenarios or sensitivity analyses.
+- Build models to be re-run, not run once. A model you can feed changed assumptions into — faster health gains, a higher retirement age, a different migration path — turns each level into a "what if" you can simulate, and is what carries you from the lower levels to the higher ones. Parameterise inputs, avoid hard-coded constants buried in code, and make running a new scenario cheap.
 - Keep a shared definitions file (what exactly is "total HLY" in *this* team's solution?) so Level 3 doesn't discover that supply and demand were computed on incompatible conventions.
 
 **Teamwork**
