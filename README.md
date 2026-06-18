@@ -7,6 +7,8 @@ This case asks you to build a quantitative bridge between **demography** and the
 The case is **multilayered**: it is organised in levels of increasing depth. Solve the levels in order. A team that completes the core levels has solved the case; a team that goes further has more to show and more to say. The final levels are deliberately open — they reward curiosity, not checklist completion.
 
 > **A guiding idea.** The life expectancy tells you about one person. Multiplied across a population, it becomes a *total* stock of expected person-years — a quantity that can be compared with jobs, costs and consumption. This shift from *average* to *total* measures is the conceptual engine of the whole case. See [concepts.md](concepts.md) before you start.
+> **A second guiding idea.** A model is not just a forecast — it is a simulation engine. Once you have fitted a model for an indicator, you can drive it under different assumptions (faster or slower gains in healthy life, higher or lower retirement ages, alternative migration or participation paths) and read off what happens downstream. Treat each level less as a one-off calculation and more as a question you put to your models: what if? The same model, re-run under different scenarios, is what carries you from one level to the next.
+
 
 ---
 
@@ -76,8 +78,7 @@ If you have come this far, the case becomes yours. Possible directions — pick,
 - **Innovation → longevity.** Reverse the arrow: does innovation (e.g. health R&D, technology adoption) measurably extend life and healthy life?
 - **Retirement legislation in depth.** A comparative legal analysis of retirement rules by country and sex, yielding a sharper assessment of the effective workforce than statutory headline ages allow.
 
-There is no prescribed method anywhere in this case. Regressions, time-series models, state-space models, Bayesian approaches, machine learning, simulation — anything goes, provided you can defend it, validate it, and explain it. Two well-defended competing models are worth more than one undefended "best" model.
-
+There is no prescribed method anywhere in this case. Regressions, time-series models, state-space models, Bayesian approaches, machine learning, simulation — anything goes, provided you can defend it, validate it, and explain it. Two well-defended competing models are worth more than one undefended "best" model. Whatever you build, build it so it can be re-run: a model you can feed new assumptions into, to simulate scenarios, is worth far more across the levels than a single static forecast.
 ---
 
 ## What a solution looks like
@@ -86,6 +87,7 @@ There is no fixed template. A convincing solution typically contains:
 
 - a **reproducible data pipeline** (raw extraction → cleaned datasets), with sources documented;
 - **models with stated assumptions**, validated out of sample where the data allow, with uncertainty made visible (forecast intervals, scenarios or sensitivity analysis);
+- **the models used as simulation engines** — at least one "what if" scenario run through your fitted models, showing how a changed assumption propagates to potential supply, demand, the balance, costs or consumption;
 - **results by country and by sex**, with cross-country comparison;
 - an honest **discussion of limitations** — short series, structural breaks, missing disaggregation, heroic assumptions;
 - a **narrative**: what did you find, and why should anyone care?
