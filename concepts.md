@@ -85,6 +85,16 @@ Neither sector costs nor consumption are published by sex. As with vacancies: de
 - relationships between variables (Levels 3–5) are modeled, not just plotted — though plotting first is always wise;
 - correlation is not waved through as causation, especially in Level 6.
 
-## 9. One warning about identities
+## 9. Models as simulation engines: scenarios
+A fitted model has two uses. The first is the obvious one — produce a forecast. The second, and the one this case leans on, is to serve as a simulation engine: a machine you can feed alternative assumptions and watch the consequences unfold.
+Concretely, once you can forecast life expectancy, healthy life expectancy, population, jobs and retirement rules, you can ask questions the raw data cannot answer:
+
+What if healthy life expectancy improves twice as fast as the trend? Re-run the supply side and see how potential labour supply shifts.
+What if the retirement age rises by two years over a decade? Re-run the demand side and the balance.
+What if population decline accelerates through migration? Watch it propagate into totals, costs and consumption.
+
+A scenario is just a coherent set of such assumptions. A baseline scenario (trends continue) gives the reference; alternative scenarios (optimistic, pessimistic, policy-driven) bracket the uncertainty and expose which conclusions are robust and which hinge on a single fragile assumption. This is why it pays to build models that are easy to re-run with changed inputs, rather than one-off calculations: the higher levels of the case are, in large part, the lower-level models interrogated under new scenarios.
+
+## 10. One warning about identities
 
 Several quantities in this case are connected by accounting identities (totals = averages × population; poor health = LE − HLY). When you later "model the relationship" between two quantities, ask yourself which part of the relationship is *mechanical* (built in by construction) and which part is *behavioural/economic* (genuinely informative). Confusing the two is the single easiest way to produce an impressive-looking but empty result.
